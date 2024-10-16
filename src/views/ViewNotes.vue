@@ -18,13 +18,15 @@
       </div>
     </div>
 
-    <div v-for="i in 1" class="card md-4">
+    <div v-for="i in 5" class="card md-4">
       <div class="card-content">
         <div class="content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id rerum delectus,
-          ullam quam labore itaque odio voluptate esse hic quisquam facere. Nesciunt
-          provident nihil voluptates ducimus obcaecati minus, repudiandae nam!
-          <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id rerum
+          delectus, ullam quam labore itaque odio voluptate esse hic quisquam
+          facere. Nesciunt provident nihil voluptates ducimus obcaecati minus,
+          repudiandae nam!
+          <a href="#">@bulmaio</a>. <a href="#">#css</a>
+          <a href="#">#responsive</a>
           <br />
           <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
         </div>
