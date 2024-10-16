@@ -2,7 +2,7 @@
   <nav class="navbar is-success" role="navigation" aria-label="main navigation">
     <div class="container is-max-desktop">
       <div class="navbar-brand">
-        <div class="navbar-item is-size-4 is-family-monospace">Noteballs</div>
+        <div class="navbar-item is-size-4 is-family-monospace">Hello Post</div>
 
         <a
           @click="showMobileNav = !showMobileNav"
@@ -49,3 +49,13 @@ import { ref } from "vue";
 */
 const showMobileNav = ref(false);
 </script>
+
+<style>
+@media (max-width: 1023px) {
+  .navbar-menu {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+  }
+}
+</style>
