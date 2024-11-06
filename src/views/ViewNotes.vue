@@ -50,7 +50,7 @@ import { ref } from "vue";
   imports
 */
 
-const newNote = ref("regergergr");
+const newNote = ref("");
 
 /*
   notes
@@ -77,7 +77,7 @@ const notes = ref([
   },
   {
     id: "id5",
-    content: " Lorem  5",
+    content: " Lorem  5555 gfgfgf",
   },
 ]);
 
