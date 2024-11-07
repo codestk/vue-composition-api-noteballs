@@ -32,6 +32,16 @@
           <RouterLink to="/status" class="navbar-item" active-class="is-active"
             >Stats</RouterLink
           >
+
+          <RouterLink
+            to="/StocksRecommend"
+            class="navbar-item"
+            active-class="is-active"
+            >Recommend</RouterLink
+          >
+          <RouterLink to="/stocks" class="navbar-item" active-class="is-active"
+            >stocks</RouterLink
+          >
         </div>
       </div>
     </div>

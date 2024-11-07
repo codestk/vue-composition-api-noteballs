@@ -1,14 +1,19 @@
 // stores/counter.js
 import { defineStore } from "pinia";
 
-export const useNoteStore = defineStore("counter", {
+export const useStoreStock = defineStore("StoreStock", {
   state: () => {
     return {
       notes: [
         {
           id: "id1",
-          content:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad aspernatur vel. Voluptatem eos aliquam qui minima, adipisci tenetur sunt. Cupiditate earum molestiae similique officia enim placeat quis! Laborum, expedita. 1",
+          name: "BJC",
+          P_S: "P/S (X) 0.94 0.65 0.64",
+          P_B: "P/B (X) 1.20 0.85 0.84",
+          content: "ราคาน่าสนใจเป็นหุ้นที่ลงมาจาก  50 แต่กำไรไม่โต   ",
+          chart: "@/assets/imageBJC/bjc10years.png",
+          low: "",
+          high: "",
         },
         {
           id: "id2",
@@ -26,11 +31,6 @@ export const useNoteStore = defineStore("counter", {
         content: newNoteContent,
       };
       this.notes.unshift(note);
-    },
-    deleteNote(id) {
-      this.notes = this.notes.filter((note) => {
-        return note.id !== id;
-      });
     },
   },
 });

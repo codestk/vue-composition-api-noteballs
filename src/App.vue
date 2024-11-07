@@ -15,4 +15,5 @@ import NavBar from "@/components/Layout/NavBar.vue";
 
 <style>
 @import "bulma/css/bulma.min.css";
+@import url("assets/base.css");
 </style>
